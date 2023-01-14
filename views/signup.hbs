@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>SignUp</title>
+</head>
+<body>
+   <form action="/signup" method="post">
+  	<h2>User Information</h2>
+		<p>
+			<label for="Name" class="floatLabel">Name</label>
+			<input id="Name" name="name" type="text">
+		</p>
+
+        <p>
+			<label for="Phone" class="floatLabel">Phone</label>
+			<input id="Phone" name="phone" type="Number">
+		</p>
+
+        <p>
+			<label for="Email" class="floatLabel">Email</label>
+			<input id="Email" name="email" type="Email">
+		</p>
+
+        <p>
+			<label for="Address" class="floatLabel">Address</label>
+			<input id="Address" name="address" type="text">
+		</p>
+		
+		<p>
+			<a href="/payment/checkout"></a>
+			<input type="submit" value="Proceed to payment" id="submit">
+		</p>
+	</form>
+</body>
+</html>
